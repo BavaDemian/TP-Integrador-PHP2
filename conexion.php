@@ -5,7 +5,7 @@
 // ===============================
 
 // Servidor de MySQL de InfinityFree
-$servidor = "sql213.infinityfree.com";
+$servidor = "sql103.infinityfree.com";
 
 // Usuario de la base de datos
 $usuario = "if0_41830694";
