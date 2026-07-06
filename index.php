@@ -32,7 +32,7 @@
         <!-- FORMULARIO: Seguimiento -->
     <div class="form-box">
         <h2>Consultar Seguimiento</h2>
-        <form action="buscarPedido.php" method="post">
+        <form action="buscar.php" method="post">
             <label for="dni_buscar">DNI</label>
             <input type="text" id="dni_buscar" name="dni_buscar" required>
             <label for="mail_buscar">Email</label>
@@ -43,15 +43,15 @@
     <!-- FORMULARIO: Pedido -->
     <div class="form-box">
         <h2>Realizar Pedido</h2>
-        <form action="guardarPedido.php" method="post">
+        <form action="guardar.php" method="post">
             <label for="producto">Producto</label>
             <select id="producto" name="producto" required>
                 <option value="">Seleccione un producto</option>
-                <option value="Mouse Gamer">CPU Ryzen 9 7950x</option>
-                <option value="Teclado Mecánico">Teclado Kumara k552</option>
-                <option value="Auriculares Bluetooth">Logitech g733</option>
-                <option value="Monitor 24 pulgadas">Monitor ACER 27 pulgadas</option>
-                <option value="Notebook Lenovo">GPU RTX 4090</option>
+                <option value="CPU Ryzen 9 7950x">CPU Ryzen 9 7950x</option>
+                <option value="Teclado Kumara k552">Teclado Kumara k552</option>
+                <option value="Logitech g733">Logitech g733</option>
+                <option value="Monitor ACER 27 pulgadas">Monitor ACER 27 pulgadas</option>
+                <option value="GPU RTX 4090">GPU RTX 4090</option>
             </select>
 
             <label for="nombre">Nombre y Apellido</label>
